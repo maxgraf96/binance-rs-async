@@ -33,7 +33,7 @@ pub struct OrderRequest {
     pub time_in_force: Option<TimeInForce>,
     pub quantity: Option<f32>,
     pub quote_order_qty: Option<f64>,
-    pub price: Option<f64>,
+    pub price: Option<f32>,
     /// A unique id for the order, automatically generated if not sent.
     pub new_client_order_id: Option<String>,
     /// Used with stop loss, stop loss limit, take profit and take profit limit order types.
