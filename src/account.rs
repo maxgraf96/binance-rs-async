@@ -286,7 +286,7 @@ impl Account {
     /// let limit_buy = OrderRequest {
     ///         symbol: "BTCUSDT".to_string(),
     ///         quantity: Some(10.0),
-    ///         price: Some(0.014000),
+    ///         price: Some(0.014000_f32),
     ///         order_type: OrderType::Limit,
     ///         side: OrderSide::Buy,
     ///         time_in_force: Some(TimeInForce::FOK),
@@ -316,7 +316,7 @@ impl Account {
     /// let limit_buy = OrderRequest {
     ///         symbol: "BTCUSDT".to_string(),
     ///         quantity: Some(10.0),
-    ///         price: Some(0.014000),
+    ///         price: Some(0.014000_f32),
     ///         order_type: OrderType::Limit,
     ///         side: OrderSide::Buy,
     ///         time_in_force: Some(TimeInForce::FOK),
