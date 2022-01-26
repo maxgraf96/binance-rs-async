@@ -31,7 +31,7 @@ pub struct OrderRequest {
     #[serde(rename = "type")]
     pub order_type: OrderType,
     pub time_in_force: Option<TimeInForce>,
-    pub quantity: Option<f64>,
+    pub quantity: Option<f32>,
     pub quote_order_qty: Option<f64>,
     pub price: Option<f64>,
     /// A unique id for the order, automatically generated if not sent.
